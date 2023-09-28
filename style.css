@@ -4,15 +4,30 @@ body{
 .calc{
     background-color: #060606;
     height: 500px;
-    width: 400px;
+    width: 300px;
 }
+
+.display{
+    background-color: #dddddd;
+    height: 200px;
+    width: 296px;
+    border: none;
+}
+
+/* .display-box{
+    padding: 10px
+} */
+
 .buttons{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 25px;
+    column-gap: 20px;
     padding: 10px;
+    padding-top: 40px;
+    row-gap: 10px;
 }
 button{
     height: 50px;
     width: 50px;
+    border-radius: 100%;
 }
