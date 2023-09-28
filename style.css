@@ -1,0 +1,18 @@
+body{
+    background-color: #F6C5C8;
+}
+.calc{
+    background-color: #060606;
+    height: 500px;
+    width: 400px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 25px;
+    padding: 10px;
+}
+button{
+    height: 50px;
+    width: 50px;
+}
