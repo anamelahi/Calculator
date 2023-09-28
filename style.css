@@ -3,14 +3,14 @@ body{
 }
 .calc{
     background-color: #060606;
-    height: 500px;
-    width: 300px;
+    height: 600px;
+    width: 350px;
 }
 
 .display{
     background-color: #dddddd;
     height: 200px;
-    width: 296px;
+    width: 346px;
     border: none;
 }
 
@@ -21,13 +21,16 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 20px;
+    column-gap: 10px;
     padding: 10px;
     padding-top: 40px;
     row-gap: 10px;
 }
 button{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 100%;
+    text-align: center;
+    border: none;
+    font-size: 25px;
 }
