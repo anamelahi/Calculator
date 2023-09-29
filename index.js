@@ -1,12 +1,14 @@
 let displayBox = "";
 
-function appendToDisplay(val){
-    displayBox += val;
-    document.getElementById("display").value = displayBox;
-}
+
 
 function clearDisplay(){
     displayBox = "";
+    document.getElementById("display").value = displayBox;
+}
+
+function display(val){
+    displayBox += val;
     document.getElementById("display").value = displayBox;
 }
 
