@@ -3,15 +3,17 @@ body{
 }
 .calc{
     background-color: #060606;
-    height: 600px;
+    height: 550px;
     width: 350px;
+    border-radius: 0 0 20px 20px;
 }
 
 #display{
-    background-color: #dddddd;
-    height: 200px;
+    background-color: #1a1a1a;
+    height: 140px;
     width: 346px;
     border: none;
+    border-radius: 20px 20px 0px 0px;
 }
 
 /* .display-box{
@@ -25,7 +27,9 @@ body{
     padding: 10px;
     padding-top: 40px;
     row-gap: 10px;
+    
 }
+
 button{
     height: 70px;
     width: 70px;
@@ -33,4 +37,15 @@ button{
     text-align: center;
     border: none;
     font-size: 25px;
+    background-color: #191919;
+    color: #F9696C;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgb(136, 133, 133), 0 1px 2px 0 rgba(144, 142, 142, 0.815);
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+button:hover {
+  background-color: rgb(62, 62, 62);
 }
