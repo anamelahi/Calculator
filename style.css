@@ -5,7 +5,7 @@ body{
     background-color: #060606;
     height: 550px;
     width: 350px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #display{
@@ -38,10 +38,10 @@ button{
     border: none;
     font-size: 25px;
     background-color: #191919;
-    color: #F9696C;
+    color: #f46b6e;
     font-weight: 400;
     text-align: center;
-    box-shadow: 0 1px 3px 0 rgb(136, 133, 133), 0 1px 2px 0 rgba(144, 142, 142, 0.815);
+    box-shadow: 0 1px 3px 0 rgba(46, 46, 46, 0.333), 0 1px 2px 0 rgba(62,62,62);
     cursor: pointer;
     touch-action: manipulation;
 }
